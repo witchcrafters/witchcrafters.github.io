@@ -1,0 +1,16 @@
+<a href="{{ card.link }}">
+  <div class="mx-auto flex flex-wrap justify-between">
+    <div class="bg-white w-full mb-8 lg:max-w-xs xl:max-w-sm rounded-lg overflow-hidden shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
+      <img class="w-full h-40 object-cover" src="{{ card.image }}" alt="{{ card.alt }}">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2 border-b border-purple h-24">{{ card.title }}</div>
+        <p class="text-gray-700 text-base h-24 overflow-hidden">
+          {{ card.description }}
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-cloud rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{{ card.category }}</span>
+      </div>
+    </div>
+  </div>
+</a>

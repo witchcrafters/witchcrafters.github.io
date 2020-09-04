@@ -1,0 +1,66 @@
+.markdown {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    border-bottom: 1px solid #9477E0;
+    display: table;
+    margin: 1rem 0;
+  }
+
+  h1 {
+    font-size: 1.6rem
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3, h4, h5, h6 {
+    font-size: 1.15rem;
+  }
+
+  p {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  code {
+    font-size: 14px;
+  }
+
+  code.highlighter-rouge {
+    background-color: #9477E040;
+    padding: 0.1rem;
+  }
+
+  div.highlight {
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow: auto;
+  }
+
+  a {
+    border-bottom: 1px solid #9477E0;
+  }
+
+  img {
+    max-height: 250px;
+    margin: 1rem auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+
+    td {
+      border-top: 1px solid #9477E050;
+      border-bottom: 1px solid #9477E050;
+      padding: 0.6rem;
+    }
+
+    th {
+      text-align: left;
+      padding: 0.6rem; 
+    }
+  }
+}
