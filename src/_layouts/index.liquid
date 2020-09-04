@@ -8,16 +8,4 @@ layout: default
   {{ content }}
 {% endrendercontent %}
 
-<div class="pb-16 mt-8">
-  <div class="-mt-16"></div>
-  <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-    <h2 class="text-2xl font-bold my-4">
-      From the media
-    </h2>
-  <div class="mx-auto flex flex-wrap justify-between">
-    {% for media in site.media %}
-      {% render 'card', card: media %}
-    {% endfor %}
-  </div>
-  </div>
-</div>
+{% render "media", media: site.media limit:3, title: "From the media" %}
