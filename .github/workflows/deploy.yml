@@ -44,7 +44,7 @@ jobs:
       - name: Build site for deployment
         run: yarn deploy
       - name: Add .nojekyll file
-        run: touch /output/.nojekyll
+        run: touch output/.nojekyll
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
