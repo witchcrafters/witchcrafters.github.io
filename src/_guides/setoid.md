@@ -19,17 +19,17 @@ Compare two setoids and determine if they are equivalent.
 Aliased as `==`.
 ## Examples
 ```elixir
-    iex> equivalent?(1, 2)
-    false
-    iex> import Kernel, except: [==: 2, !=: 2]
-    ...> %{a: 1} == %{a: 1, b: 2}
-    false
-    equivalent?(%Maybe.Just{just: 42}, %Maybe.Nothing{})
-    false
-    ### Equivalence not equality
-    baby_harry = %Wizard{name: "Harry Potter", age: 10}
-    old_harry  = %Wizard{name: "Harry Potter", age: 17}
-    def chosen_one?(some_wizard), do: equivalent?(baby_harry, some_wizard)
-    chosen_one?(old_harry)
-    true
+  iex> equivalent?(1, 2)
+  false
+  iex> import Kernel, except: [==: 2, !=: 2]
+  ...> %{a: 1} == %{a: 1, b: 2}
+  false
+  equivalent?(%Maybe.Just{just: 42}, %Maybe.Nothing{})
+  false
+  ### Equivalence not equality
+  baby_harry = %Wizard{name: "Harry Potter", age: 10}
+  old_harry  = %Wizard{name: "Harry Potter", age: 17}
+  def chosen_one?(some_wizard), do: equivalent?(baby_harry, some_wizard)
+  chosen_one?(old_harry)
+  true
 ```
