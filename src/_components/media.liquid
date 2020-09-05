@@ -3,7 +3,7 @@
     <h2 class="text-2xl font-bold my-4">
       {{ title }}
     </h2>
-    <div class="mx-auto flex flex-wrap flex-row-reverse justify-between">
+    <div class="mx-auto flex flex-wrap flex-col-reverse lg:flex-row-reverse justify-between">
       {% for media in media %}
         {% render 'card', card: media %}
       {% endfor %}
