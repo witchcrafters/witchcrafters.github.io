@@ -1,13 +1,12 @@
 .markdown {
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    border-bottom: 1px solid #9477E0;
-    display: table;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
   }
 
   h1 {
-    font-size: 1.6rem
+    font-size: 1.6rem;
+    border-bottom: 2px solid #9477E050;
   }
 
   h2 {
@@ -40,7 +39,7 @@
   }
 
   a {
-    border-bottom: 1px solid #9477E0;
+    border-bottom: 1px solid #9477E050;
   }
 
   img {
@@ -62,5 +61,32 @@
       text-align: left;
       padding: 0.6rem; 
     }
+  }
+
+  li {
+    margin: 1rem;
+    list-style: square;
+  }
+
+  blockquote {
+    max-width: 100%;
+    margin: 1rem auto;
+    padding: 2rem 2.5rem 2rem 3rem;
+    border-left: 6px solid #9477E050;
+    border-radius: 0.5rem;
+    position: relative;
+    background:#EBECF550;
+  }
+
+  blockquote::before {
+    content: "\201C";
+    font-size: 4rem;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+  }
+
+  blockquote::after{
+    content: '';
   }
 }

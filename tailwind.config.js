@@ -9,6 +9,7 @@ module.exports = {
       purple: '#9477E0',
       cloud: '#EBECF5',
       slate: '#262535',
+      lightpurple: '#9477E050'
     },
     fontFamily: {
       body: ['Nunito', 'sans-serif']
