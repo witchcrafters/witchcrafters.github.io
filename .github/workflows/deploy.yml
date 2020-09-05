@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build_and_deploy:
@@ -14,3 +14,9 @@ jobs:
         uses: andrewmcodes/bridgetown-gh-pages-action@v0.0.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          repository: daskycodes/daskycodes.github.io
+          github_actor: octokit
+          site_location: "./site"
+          build_location: "./site/output"
+          deploy_branch: "deploy"
+          commit_message: "Release the site"
