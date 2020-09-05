@@ -1,7 +1,6 @@
 module.exports = {
   purge: {
-    mode: 'production',
-    content: ['./src/**/*.html'],
+    content: ['./src/**/*.html']
   },
   theme: {
     colors: {
