@@ -1,9 +1,11 @@
 ---
 layout: index
-title: "Values"
+title: Index
 ---
 
-### Beginner Friendliness
+# Values
+
+## Beginner Friendliness
 
 You shouldn't have to learn another language just to understand powerful abstractions!
 By enabling people to use a language that they already know, and is already in the
@@ -13,7 +15,7 @@ learn faster.
 As much as possible, keep things friendly and well explained.
 Concrete examples are available via doctests.
 
-### Consistency & Ethos
+## Consistency & Ethos
 
 Elixir does a lot of things differently from certain other functional languages.
 The idea of a data "subject" being piped though functions is conceptually different from
@@ -30,7 +32,8 @@ are left at separate names so you can performance tune as needed (currying is he
 more abstract code). With a few exceptions (we're looking at you, `Applicative`),
 pipe-ordering is maintained.
 
-### Pragmatism
+## Pragmatism
+
 Convincing a company to use a language like [Haskell](https://www.haskell.org)
 or [PureScript](http://www.purescript.org) can be challenging. Elixir is gaining
 a huge amount of interest. Many people have been able to introduce these concepts
