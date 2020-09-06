@@ -69,7 +69,7 @@ Directory for all layout files. Different pages can have different layouts.
 For example the regular page layout `default.liquid` is located here. Read more
 about layouts in bridgetownrb here: https://www.bridgetownrb.com/docs/layouts
 
-##### `components/`
+##### `_components/`
 
 Directory for all component files, like navbar, footer, etc.
 
