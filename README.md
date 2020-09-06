@@ -2,6 +2,8 @@
 
 The `Witchcraft` website, built with [bridgetownrb](https://bridgetownrb.com) and [tailwindcss](https://tailwindcss.com/)
 
+Join the discussion at https://witchcraft.chat
+
 - [Development Setup](#development-setup)
 - [Contribution Guidelines](#contribution-guidelines)
   - [CSS and JS](#css-and-js)
