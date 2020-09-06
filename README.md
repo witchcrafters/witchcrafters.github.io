@@ -1,4 +1,4 @@
-# Witchcraft website
+![](https://github.com/expede/witchcraft/raw/master/brand/Wordmark/PNG/WC-wordmark-lrg@2x.png)
 
 The `Witchcraft` website, built with [bridgetownrb](https://bridgetownrb.com) and [tailwindcss](https://tailwindcss.com/)
 
