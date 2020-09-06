@@ -1,15 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% render "head", metadata: site.metadata, title: page.title %}
+    {% render "shared/head", metadata: site.metadata, title: page.title %}
   </head>
   <body class="min-h-screen bg-cloud font-body text-slate {{ page.layout }} {{ page.page_class }}">
-    {% render "navbar", metadata: site.metadata, page: page %}
+    {% render "shared/navbar", page: page, navigation: site.data.navigation %}
+    {% render "shared/topbar" %}
 
     <main>
       {{ content }}
     </main>
 
-    {% render "footer", metadata: site.metadata %}
+    {% render "shared/footer", metadata: site.metadata %}
   </body>
 </html>

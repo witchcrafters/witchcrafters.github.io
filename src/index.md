@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Index
+title: Home
 ---
 
 # Values

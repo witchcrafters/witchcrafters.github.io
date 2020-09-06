@@ -4,8 +4,8 @@ layout: default
 
 {% render "landing/hero" %}
 
-{% rendercontent "container", title: page.title %}
+{% rendercontent "shared/container", title: page.title %}
   {{ content }}
 {% endrendercontent %}
 
-{% render "media", media: site.media limit:3, title: "From the media" %}
+{% render "shared/card_container", collection: site.media limit:3, title: "From the media" %}

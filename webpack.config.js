@@ -1,6 +1,6 @@
-const path = require("path");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const ManifestPlugin = require("webpack-manifest-plugin");
+const path = require("path")
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+const ManifestPlugin = require("webpack-manifest-plugin")
 
 module.exports = {
   entry: "./frontend/javascript/index.js",
@@ -36,8 +36,8 @@ module.exports = {
           options: {
             presets: ["@babel/preset-env"],
             plugins: [
-              ["@babel/plugin-proposal-decorators", { "legacy": true }],
-              ["@babel/plugin-proposal-class-properties", { "loose" : true }],
+              ["@babel/plugin-proposal-decorators", { legacy: true }],
+              ["@babel/plugin-proposal-class-properties", { loose: true }],
               [
                 "@babel/plugin-transform-runtime",
                 {
@@ -57,9 +57,7 @@ module.exports = {
             loader: "sass-loader",
             options: {
               sassOptions: {
-                includePaths: [
-                  path.resolve(__dirname, "src/_components")
-                ],
+                includePaths: [path.resolve(__dirname, "src/_components")],
               },
             },
           },
@@ -86,4 +84,4 @@ module.exports = {
       },
     ],
   },
-};
+}

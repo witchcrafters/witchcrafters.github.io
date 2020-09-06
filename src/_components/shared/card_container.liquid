@@ -4,8 +4,8 @@
       {{ title }}
     </h2>
     <div class="mx-auto flex flex-wrap flex-col-reverse lg:flex-row-reverse justify-between">
-      {% for media in media %}
-        {% render 'card', card: media %}
+      {% for item in collection %}
+        {% render "shared/card", card: item %}
       {% endfor %}
     </div>
   </div>

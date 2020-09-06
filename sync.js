@@ -1,4 +1,4 @@
-const browserSync = require("browser-sync").create();
+const browserSync = require("browser-sync").create()
 
 // You can change these configuration values:
 const proxy = "http://localhost:4001"
@@ -22,14 +22,14 @@ browserSync.init({
   reloadDelay: 0,
   injectChanges: false,
   ui: {
-    port: uiPort
+    port: uiPort,
   },
   snippetOptions: {
     rule: {
       match: /<\/head>/i,
       fn: function (snippet, match) {
-        return snippet + match;
+        return snippet + match
       },
     },
   },
-});
+})

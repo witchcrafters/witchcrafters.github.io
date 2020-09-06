@@ -1,0 +1,17 @@
+- name: Home
+  link: /
+
+- name: Get started
+  link: /get-started/
+
+- name: Guides
+  link: /guides/
+
+- name: Community
+  link: https://witchcraft.chat
+
+- name: Docs
+  link: https://hexdocs.pm/witchcraft
+
+- name: Source
+  link: https://github.com/witchcrafters/witchcraft
