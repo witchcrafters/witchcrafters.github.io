@@ -33,6 +33,6 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/image/brand/witchcraft-icon-circle.png
+      image: /assets/img/brand/witchcraft-icon-circle.png
       twitter:
         card: "summary"
