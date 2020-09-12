@@ -1,6 +1,7 @@
 ---
 layout: page
 title: example frontmatter title
+description: example description
 date: 2020-09-04
 categories: example
 ---

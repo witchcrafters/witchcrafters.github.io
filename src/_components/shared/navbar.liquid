@@ -1,5 +1,5 @@
-<header class="bg-white px-4">
-  <nav class="max-w-screen-xl mx-auto nav flex flex-wrap items-center justify-between">
+<header class="bg-white">
+  <nav class="max-w-screen-xl mx-auto nav flex flex-wrap items-center justify-between px-4">
     <div class="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
       {% svg "assets/img/brand/witchcraft-icon.svg" height=36 %}
       <a href="/"><span class="p-2 font-bold text-xl tracking-tight">Witchcraft</span></a>
@@ -20,4 +20,6 @@
       {% endfor %}
     </ul>
   </nav>
+
+  {% render "shared/topbar" %}
 </header>

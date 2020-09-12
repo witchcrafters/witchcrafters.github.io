@@ -28,3 +28,11 @@ collections:
     sort_by: title
   media:
     output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/image/brand/witchcraft-icon-circle.png
+      twitter:
+        card: "summary"
