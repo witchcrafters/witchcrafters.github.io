@@ -2,7 +2,7 @@
 
 The `Witchcraft` website, built with [bridgetownrb](https://bridgetownrb.com) and [tailwindcss](https://tailwindcss.com/)
 
-Join the discussion at https://witchcraft.chat
+Join the discussion at [https://witchcraft.chat](https://witchcraft.chat)
 
 - [Development Setup](#development-setup)
 - [Contribution Guidelines](#contribution-guidelines)
@@ -13,7 +13,7 @@ Join the discussion at https://witchcraft.chat
 
 ### Step 0: Requirements
 
-- ruby 2.7.1 and bundler (`gem install bundler`)
+- ruby 3.0.0 and bundler (`gem install bundler`)
 - Node.js and yarn
 
 ### Step 1: Setup your local development environment
@@ -25,11 +25,11 @@ Join the discussion at https://witchcraft.chat
 
 ### Step 2: Start the development server
 
-```
+```shell
 yarn start
 ```
 
-The page is available under http://localhost:4000.
+The page is available under [http://localhost:4000](http://localhost:4000).
 
 Any file edits will immediately update inside your browser. ✨
 
@@ -54,7 +54,7 @@ The js entrypoint is `frontend/javascript/index.js`.
 
 ### The `src/` directory
 
-Contains all **content**, like pages, guides written in markdown, layouts, 
+Contains all **content**, like pages, guides written in markdown, layouts,
 components and images.
 
 ##### `_guides/`
@@ -81,7 +81,7 @@ To include a component inside a layout
 {% render "shared/navbar", page: page, navigation: site.data.navigation %}
 ```
 
-Read more here: https://www.bridgetownrb.com/docs/components
+Read more here: [https://www.bridgetownrb.com/docs/components](https://www.bridgetownrb.com/docs/components)
 
 ##### `assets/img`
 
